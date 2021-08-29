@@ -1,0 +1,141 @@
+.login-bg {
+  background-color: #fafbfc;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+font-weight: 600;
+}
+.login-box {
+  width: 47vw;
+  height: 55vh;
+  background-color: #fff;
+  box-shadow: 0px 0px 12px #00000029;
+  margin-top: 7vh;
+}
+
+.login-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+.login-title {
+  font-size: 32px;
+  color: #7d7d7d;
+}
+.login-container {
+ width: 31vw;
+height: 25vh;
+padding-top: 33px;
+}
+
+.login-input-email {
+  display: flex;
+  border-bottom: 1px solid #7d7d7d;
+  color: #7d7d7d;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+.login-input-pass {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #7d7d7d;
+  width: 100%;
+  color: #7d7d7d;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+input {
+  border: 0;
+  /* margin-left: 10px; */
+}
+
+.login-input .icon {
+  margin-top: 5px;
+  margin-right: 3px;
+}
+.login-container button {
+  width: 100%;
+  background-color: #418bca;
+  border-radius: 2px;
+  border: 0;
+  padding: 9px 0 6px 0;
+  font-size: 24px;
+  color: #fff;
+}
+.login-check {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0;
+  color: #7d7d7d;
+}
+.login-remember {
+  display: flex;
+  justify-content: space-between;
+  margin-left: -11px;
+}
+
+.icon-pass {
+  width: 10%;
+  cursor: pointer;
+}
+
+.div-pass {
+  width: 90%;
+}
+
+.input-pass {
+  width: 100%;
+  outline: none;
+  font-size: 18px;
+  padding: 5px;
+}
+
+.icon-pass-ae {
+  width: 10%;
+}
+.input-email {
+  width: 100%;
+  outline: none;
+  font-size: 18px;
+  padding: 5px;
+}
+.icon-email {
+  margin-top: 4px;
+}
+.login-secend-box {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  align-items: flex-end;
+  max-height: 30vh;
+  margin-top: 50px;
+}
+.login-img img {
+  width: 24vw;
+  height: 34vh;
+}
+
+.logo-text-login {
+  font-size: 32px !important;
+}
+.login-logo {
+  align-items: center;
+  font-size: 2vw;
+  border-top: 1px solid #d0d0d0;
+  margin-right: 235px;
+  padding-top: 10px;
+
+}
+.gray-login {
+  width: 32px !important;
+  height: 32px !important;
+}
+.checkbox-login{
+  padding: 5px !important;
+}
+.invoice-input{
+  margin-bottom: 16px;
+}

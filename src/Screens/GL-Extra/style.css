@@ -1,0 +1,83 @@
+.general-header {
+  justify-content: space-between;
+  color: #7d7d7d;
+  font-size: 15px;
+  margin-top: -3px;
+  font-family: "Segoe UI" !important;
+}
+.general-header h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #7d7d7d;
+  padding: 0px 30px;
+}
+.general-header .MuiButton-label {
+  color: #7d7d7d;
+  text-transform: capitalize;
+  font-size: 15px;
+  margin-top: -3px;
+}
+.general-typography {
+  padding-right: 30px;
+  letter-spacing: 1px;
+  margin-top: 5px;
+}
+.export-menu {
+  border-right: 1px solid #7d7d7d;
+  margin-right: 20px;
+  padding-right: 15px;
+}
+.export-setting-icon {
+  margin-top: 4px;
+  margin-right: 32px;
+}
+
+.MuiInputBase-adornedStart {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+.MuiDrawer-paperAnchorLeft {
+  width: 17%;
+  min-width: 17%;
+  height: 100%;
+  min-height: 100%;
+  background: black;
+}
+.advance-like {
+  color: blue;
+  text-decoration: underline;
+  margin-right: 30px;
+}
+.header-bar {
+  background: #fcfcfc;
+  height: 40px;
+  line-height: 40px;
+  font-size: 13px;
+  color: #7d7d7d;
+}
+.GLExtra-Screen {
+  width: 100%;
+}
+.GLExtra-header {
+  padding-top: 10px;
+}
+.GLExtraBody {
+  font-family: "Segoe UI" !important;
+  font-size: 13px;
+  overflow-y: scroll;
+  max-height: 70vh;
+  color: #7d7d7d;
+}
+.general-header-two {
+  padding: 10px 16px 0 30px;
+}
+.general-header-two p{
+  color:#B1B1B1;
+  font-size: 13px;
+}
+.general-header-two input::placeholder{
+  font-size: 16px;
+  color: #7d7d7d;
+}

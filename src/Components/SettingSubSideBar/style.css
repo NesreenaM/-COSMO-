@@ -1,0 +1,17 @@
+.global-flexrow {
+  display: flex;
+  flex-direction: row;
+  padding-left: .9vw;
+  font-size: 1.3vw;
+  margin-top: .7vw;
+  color: #7d7d7d;
+  font-weight: normal;
+}
+
+.global-flexrow:hover {
+  background-color: #EAEAEA;
+}
+
+.setting-container {
+  width: 20%;
+}

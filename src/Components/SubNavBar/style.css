@@ -1,0 +1,44 @@
+.Sub-nav-bg {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: #eaeaea;
+  padding: 10px 0;
+ font-size: 1.1vw;;
+  max-height: 7vh;
+  background-color: #fcfcfc;
+}
+.sub-nav-links {
+  font-size: 16px;
+  color: #353535 !important;
+}
+.sub-nav-links :link {
+  color: #353535 !important;
+  padding: 0 20px;
+}
+.sub-nav-quick {
+  background-color: #fff;
+  border-color: #e5e5e5;
+  width: 17vw;
+  height: 5vh;
+  margin-right: 14px;
+  margin-top: -3px;
+}
+.copy-icon {
+  margin: 3px 6px 0px 6px;
+    font-size: 12px !important;
+  color: #7d7d7d;
+}
+.nav-left-icon{
+  font-size: 21px !important;
+}
+button {
+  background-color: #f7f7f7;
+  border: 0;
+  padding: 4px 13px;
+  margin: 3px 0 4px 12px;
+}
+
+.link-color {
+  color: #7d7d7d;
+}

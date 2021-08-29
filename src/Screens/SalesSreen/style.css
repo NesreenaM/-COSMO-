@@ -1,0 +1,50 @@
+.sale-container {
+  display: flex;
+  width: 100% !important;
+}
+.sale-container p {
+}
+
+.MuiBox-root-29,
+.MuiBox-root-31 {
+  padding: 0 !important;
+}
+
+.title-section {
+  padding: 10px;
+  font-size: 1.2vw;
+  font-weight: bold;
+  color: #7d7d7d;
+  padding-left: 24px;
+}
+
+.nav-left-icon {
+  color: #7d7d7d;
+}
+
+.sale-table {
+  width: 100% !important;
+}
+
+.nav-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.nav-left-icon {
+  color: #000;
+}
+
+.nav-icons-hover:hover {
+  opacity: 0.9;
+  background: #948989b0;
+  height: 60%;
+  border-radius: 50%;
+  display: flex;
+  margin: 0px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

@@ -1,0 +1,372 @@
+.invoice-screen {
+  width: 100%;
+}
+/*Invoice upper bar*/
+.upper-bar-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  color: #7d7d7d;
+  padding: 0 22px;
+}
+.upper-bar-box {
+  display: flex;
+  padding: 10px 0;
+  width: 30%;
+  max-height: 67px;
+}
+.upper-bar-box span:nth-of-type(1) {
+  display: flex;
+}
+.upper-bar-box p {
+  margin-left: 50px;
+}
+.detlete-icon {
+  cursor: pointer;
+}
+
+/*Invoice List*/
+
+.invoice-list-contenair table,
+tr,
+td {
+  border-bottom: 1px solid #edf2f9;
+  border-collapse: collapse;
+}
+
+.invoice-list-contenair {
+  width: 100%;
+  color: #7d7d7d;
+  font-size: 13px;
+  padding-left: 22px;
+}
+.list-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+table {
+  color: #7d7d7d;
+}
+
+td:nth-last-of-type(2) {
+  margin: 0 50px 0 60px;
+}
+.list-links {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+.list-links .links {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* add-comment-section */
+.add-comment-section {
+  color: #7d7d7d;
+  font-size: 13px;
+}
+.add-comment-section .text-area {
+  margin-top: 5px;
+  padding: 4px;
+  border-top: 1px solid #d0d0d0;
+  width: 100%;
+  display: flex;
+}
+.add-comment-section textarea {
+  margin: 4px 0;
+  width: 400px;
+  height: 50px;
+  resize: none;
+}
+.add-comment-section textarea::placeholder {
+  color: #e5e5e5;
+  padding: 5px;
+}
+
+/*Invoice Notes*/
+.invoice-note-section {
+  color: #7d7d7d;
+  width: 24%;
+  font-size: 13px;
+}
+.invoice-note-section .text-area {
+  margin-top: 5px;
+  padding: 4px;
+  border-top: 1px solid #d0d0d0;
+  width: 80%;
+  display: flex;
+}
+.invoice-note-section textarea {
+  margin: 4px 0;
+  width: 80%;
+  height: 50px;
+  resize: none;
+}
+.invoice-note-section textarea::placeholder {
+  color: #7d7d7d;
+  padding: 5px;
+}
+
+/*other-exp Section*/
+.other-exp {
+  display: flex;
+  border-top: 1px solid #b1b1b1;
+  border-bottom: 1px solid #b1b1b1;
+  flex-direction: column;
+  width: 32%;
+  color: #b1b1b1;
+  font-size: 13px;
+}
+
+.other-exp .exp-title p {
+  text-align: right;
+  color: #7d7d7d;
+  margin-bottom: 11px;
+  font-weight: bold;
+}
+.first-column {
+  font-weight: bold;
+  color: #7d7d7d;
+}
+.other-exp .tax {
+  display: flex;
+  margin-top: -4px;
+}
+.other-exp .tax div {
+  margin-right: 20px;
+}
+.other-exp .tax div:first-of-type {
+  text-align: right;
+}
+
+/* Date Details Section */
+.Date-title {
+  border-bottom: 1px solid #b1b1b1;
+  padding-top: 12px;
+}
+.Date-Details {
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  color: #7d7d7d;
+}
+.Date-Details .date-table {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+}
+.first-row {
+  width: 300px;
+}
+.first-row p {
+  width: 300px;
+  margin-bottom: 3px;
+}
+.first-row p:first-of-type {
+  margin-bottom: 3px;
+  color: #b1b1b1;
+}
+.globle-flexColumn {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.second-row p:first-of-type {
+  color: #b1b1b1;
+}
+.globle-flexRow {
+  display: flex;
+}
+
+.calender-icon:hover {
+  background: #e6e6e6;
+  border-radius: 50%;
+}
+
+/* Billing Section*/
+.billing-section {
+  width: 55%;
+  font-size: 13px;
+  color: #7d7d7d;
+  padding-top: 12px;
+}
+.Billing-head {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #b1b1b1;
+}
+
+.Billing-head p:nth-of-type(2) {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.billing-box {
+  margin-top: 20px;
+}
+.globle-flexRow-billing {
+  display: flex;
+  justify-content: space-between;
+}
+
+.globle-flexRow-billing p:first-of-type {
+  color: #b1b1b1;
+}
+
+.globle-flexRow-billing p:last-of-type {
+  color: #7d7d7d;
+}
+/* top-bar-invoice */
+.top-bar-invoice {
+  padding-top: 10px;
+  color: #b1b1b1;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 13px;
+  max-height: 79px;
+}
+.top-bar-invoice .top-bar-typograghy {
+  font-weight: bold;
+}
+.top-bar-invoice span {
+  padding-right: 10px;
+}
+.top-bar-invoice .top-bar-icons {
+  margin: 0 10px;
+  color: #7d7d7d;
+  font-size: 16px;
+}
+.comment-section {
+  padding: 23px 22px 0 22px;
+}
+
+.outer {
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  border: 1px solid gray;
+}
+.innter {
+  background: #545454;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.swtich-Bar {
+  display: flex;
+  justify-content: stretch;
+}
+
+.wrapper-SwitchBar {
+  width: 73%;
+  height: auto;
+  padding-left: 381px;
+  padding-bottom: 11px;
+
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper-subItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-height: 65px;
+  padding: 13px 0;
+}
+.circle {
+  background: #fff;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 2px solid #e5e5e5;
+  align-items: center;
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  justify-content: center;
+  bottom: -4px;
+  right: -11px;
+}
+
+.circle-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  bottom: -25%;
+  right: -20px;
+}
+.sub-circle {
+  background: #e5e5e5;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.switchBar-hr {
+  height: 3px;
+  width: 100%;
+  background: #c5c5c5;
+}
+
+.switchBar-span {
+  /* margin: 15px 0px; */
+  font-size: 16px;
+}
+.left-circle {
+  top: 8px;
+  right: 29px;
+}
+.invoice-bg {
+  background: #f3f3f3;
+  max-height: 66px;
+}
+
+.switch-controll {
+  width: 60%;
+  padding-bottom: 30px;
+}
+.Buttons-bar {
+  background-color: #fcfcfc;
+  height: 51px;
+  padding: 10px 10px 0 22px;
+}
+.upper-p {
+  color: #b1b1b1;
+}
+.upper-span {
+  font-size: 13px;
+  margin-left: 45px;
+}
+.invoice-num {
+  color: #7d7d7d;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 7px 0;
+  padding: 0 22px;
+}
+.Bill-container {
+  padding: 10px 22px;
+}
+.sec-top-bar-invoice {
+  width: 100%;
+  display: flex;
+  padding: 10px 15px 0 22px;
+  justify-content: space-between;
+  border-bottom: 1px solid #E1E1E1;
+}
+.span-model .checkmark{
+  margin-left: 10px;
+}
+.Buttons-bar{
+ 
+}
